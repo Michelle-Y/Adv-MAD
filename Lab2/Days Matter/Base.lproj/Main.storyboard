@@ -250,7 +250,7 @@
                             <outletCollection property="gestureRecognizers" destination="NLL-YW-lCZ" appends="YES" id="GfY-xh-Knc"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Add New Vehicle" id="0bC-W0-eBM">
+                    <navigationItem key="navigationItem" title="Add New Date" id="0bC-W0-eBM" userLabel="Add New Date">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="aMv-pa-CZX">
                             <connections>
                                 <segue destination="ydd-8l-hzv" kind="unwind" identifier="cancelSegue" unwindAction="unwingSegue:" id="oHt-aI-6ET"/>
