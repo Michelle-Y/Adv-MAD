@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tomjerry" translatesAutoresizingMaskIntoConstraints="NO" id="ggW-OH-T40">
+                                <rect key="frame" x="-1" y="160" width="375" height="487"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ggW-OH-T40" secondAttribute="height" multiplier="375:487" id="7hN-vj-BEG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Complete List of Episodes that air in US on 2018-03-01" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntz-1A-Lx1">
+                                <rect key="frame" x="14" y="29" width="345" height="115"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.90637180620000002" blue="0.58083446230000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ntz-1A-Lx1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Kn4-ZT-jDc"/>
+                            <constraint firstItem="ggW-OH-T40" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="15" id="QiY-d7-UzU"/>
+                            <constraint firstItem="Ntz-1A-Lx1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="c7e-6w-xco"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ntz-1A-Lx1" secondAttribute="trailing" constant="15" id="cTd-HC-q1b"/>
+                            <constraint firstItem="Ntz-1A-Lx1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="eiZ-W0-XMF"/>
+                            <constraint firstItem="ggW-OH-T40" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="feP-xE-MOG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ggW-OH-T40" secondAttribute="bottom" constant="15" id="mNV-Co-ARz"/>
+                            <constraint firstItem="ggW-OH-T40" firstAttribute="top" secondItem="Ntz-1A-Lx1" secondAttribute="bottom" constant="10" id="uXe-6W-l0t"/>
+                            <constraint firstItem="ggW-OH-T40" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yVn-Po-5Ee"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tomjerry" width="640" height="788"/>
+    </resources>
+</document>
