@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04191CFA2240578000180B7C /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04191CF92240578000180B7C /* RealmService.swift */; };
+		058A186D83CE7C2ACD92DFF1 /* Pods_Days_Matter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74527F99F769434E4ED46BBB /* Pods_Days_Matter.framework */; };
+		1E1B884E2037519900B5802E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B884D2037519900B5802E /* AppDelegate.swift */; };
+		1E1B88502037519900B5802E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B884F2037519900B5802E /* MainViewController.swift */; };
+		1E1B88532037519900B5802E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B88512037519900B5802E /* Main.storyboard */; };
+		1E1B88552037519900B5802E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B88542037519900B5802E /* Assets.xcassets */; };
+		1E1B88582037519900B5802E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B88562037519900B5802E /* LaunchScreen.storyboard */; };
+		1E1B88602037531200B5802E /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B885F2037531200B5802E /* Memo.swift */; };
+		1E1B88622037AEF300B5802E /* dates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B88612037AEF300B5802E /* dates.plist */; };
+		1E1B88822037BE9200B5802E /* TypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B88812037BE9200B5802E /* TypeTableViewController.swift */; };
+		1E1B8886203897AF00B5802E /* DateDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B8885203897AF00B5802E /* DateDetailTableViewController.swift */; };
+		1E1B88882038A45C00B5802E /* NewDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B88872038A45C00B5802E /* NewDateViewController.swift */; };
+		1E1B888A20392A9600B5802E /* DateMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B888920392A9600B5802E /* DateMemo.swift */; };
+		1E1B888C2039F71C00B5802E /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B888B2039F71C00B5802E /* AlertController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04191CF92240578000180B7C /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		1E1B884A2037519900B5802E /* Days Matter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Days Matter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1B884D2037519900B5802E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E1B884F2037519900B5802E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1E1B88522037519900B5802E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E1B88542037519900B5802E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E1B88572037519900B5802E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E1B88592037519900B5802E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E1B885F2037531200B5802E /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		1E1B88612037AEF300B5802E /* dates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = dates.plist; sourceTree = "<group>"; };
+		1E1B88812037BE9200B5802E /* TypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTableViewController.swift; sourceTree = "<group>"; };
+		1E1B8885203897AF00B5802E /* DateDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDetailTableViewController.swift; sourceTree = "<group>"; };
+		1E1B88872038A45C00B5802E /* NewDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDateViewController.swift; sourceTree = "<group>"; };
+		1E1B888920392A9600B5802E /* DateMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateMemo.swift; sourceTree = "<group>"; };
+		1E1B888B2039F71C00B5802E /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		5DFE5B4EED4E2982989DC06D /* Pods-Days Matter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Days Matter.debug.xcconfig"; path = "Target Support Files/Pods-Days Matter/Pods-Days Matter.debug.xcconfig"; sourceTree = "<group>"; };
+		6EDE6C8DFFBAE47B33A83147 /* Pods-Days Matter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Days Matter.release.xcconfig"; path = "Target Support Files/Pods-Days Matter/Pods-Days Matter.release.xcconfig"; sourceTree = "<group>"; };
+		74527F99F769434E4ED46BBB /* Pods_Days_Matter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Days_Matter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1B88472037519900B5802E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058A186D83CE7C2ACD92DFF1 /* Pods_Days_Matter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1B88412037519900B5802E = {
+			isa = PBXGroup;
+			children = (
+				1E1B884C2037519900B5802E /* Days Matter */,
+				1E1B884B2037519900B5802E /* Products */,
+				AF4538304DC5E086CE27A3E3 /* Pods */,
+				E465EAE96F4D50EDE9C541B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E1B884B2037519900B5802E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E1B884A2037519900B5802E /* Days Matter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E1B884C2037519900B5802E /* Days Matter */ = {
+			isa = PBXGroup;
+			children = (
+				1E1B88872038A45C00B5802E /* NewDateViewController.swift */,
+				1E1B884D2037519900B5802E /* AppDelegate.swift */,
+				1E1B884F2037519900B5802E /* MainViewController.swift */,
+				1E1B88612037AEF300B5802E /* dates.plist */,
+				1E1B88512037519900B5802E /* Main.storyboard */,
+				1E1B8885203897AF00B5802E /* DateDetailTableViewController.swift */,
+				04191CF92240578000180B7C /* RealmService.swift */,
+				1E1B88812037BE9200B5802E /* TypeTableViewController.swift */,
+				1E1B888B2039F71C00B5802E /* AlertController.swift */,
+				1E1B888920392A9600B5802E /* DateMemo.swift */,
+				1E1B88542037519900B5802E /* Assets.xcassets */,
+				1E1B88562037519900B5802E /* LaunchScreen.storyboard */,
+				1E1B88592037519900B5802E /* Info.plist */,
+				1E1B885F2037531200B5802E /* Memo.swift */,
+			);
+			path = "Days Matter";
+			sourceTree = "<group>";
+		};
+		AF4538304DC5E086CE27A3E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DFE5B4EED4E2982989DC06D /* Pods-Days Matter.debug.xcconfig */,
+				6EDE6C8DFFBAE47B33A83147 /* Pods-Days Matter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E465EAE96F4D50EDE9C541B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74527F99F769434E4ED46BBB /* Pods_Days_Matter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E1B88492037519900B5802E /* Days Matter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E1B885C2037519900B5802E /* Build configuration list for PBXNativeTarget "Days Matter" */;
+			buildPhases = (
+				F7A9243D3738FA64D12F17FC /* [CP] Check Pods Manifest.lock */,
+				1E1B88462037519900B5802E /* Sources */,
+				1E1B88472037519900B5802E /* Frameworks */,
+				1E1B88482037519900B5802E /* Resources */,
+				F47E13125372443A706F553F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Days Matter";
+			productName = "Auto Sales";
+			productReference = 1E1B884A2037519900B5802E /* Days Matter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E1B88422037519900B5802E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ziyang Yang";
+				TargetAttributes = {
+					1E1B88492037519900B5802E = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1E1B88452037519900B5802E /* Build configuration list for PBXProject "Days Matter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E1B88412037519900B5802E;
+			productRefGroup = 1E1B884B2037519900B5802E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E1B88492037519900B5802E /* Days Matter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E1B88482037519900B5802E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1B88582037519900B5802E /* LaunchScreen.storyboard in Resources */,
+				1E1B88622037AEF300B5802E /* dates.plist in Resources */,
+				1E1B88552037519900B5802E /* Assets.xcassets in Resources */,
+				1E1B88532037519900B5802E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F47E13125372443A706F553F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Days Matter/Pods-Days Matter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Days Matter/Pods-Days Matter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A9243D3738FA64D12F17FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Days Matter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E1B88462037519900B5802E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1B88602037531200B5802E /* Memo.swift in Sources */,
+				1E1B8886203897AF00B5802E /* DateDetailTableViewController.swift in Sources */,
+				1E1B88502037519900B5802E /* MainViewController.swift in Sources */,
+				1E1B88822037BE9200B5802E /* TypeTableViewController.swift in Sources */,
+				04191CFA2240578000180B7C /* RealmService.swift in Sources */,
+				1E1B888C2039F71C00B5802E /* AlertController.swift in Sources */,
+				1E1B88882038A45C00B5802E /* NewDateViewController.swift in Sources */,
+				1E1B884E2037519900B5802E /* AppDelegate.swift in Sources */,
+				1E1B888A20392A9600B5802E /* DateMemo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E1B88512037519900B5802E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E1B88522037519900B5802E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E1B88562037519900B5802E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E1B88572037519900B5802E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E1B885A2037519900B5802E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E1B885B2037519900B5802E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E1B885D2037519900B5802E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFE5B4EED4E2982989DC06D /* Pods-Days Matter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Days Matter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLAS.Lab2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E1B885E2037519900B5802E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDE6C8DFFBAE47B33A83147 /* Pods-Days Matter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Days Matter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLAS.Lab2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E1B88452037519900B5802E /* Build configuration list for PBXProject "Days Matter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1B885A2037519900B5802E /* Debug */,
+				1E1B885B2037519900B5802E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E1B885C2037519900B5802E /* Build configuration list for PBXNativeTarget "Days Matter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1B885D2037519900B5802E /* Debug */,
+				1E1B885E2037519900B5802E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E1B88422037519900B5802E /* Project object */;
+}
