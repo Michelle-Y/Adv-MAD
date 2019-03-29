@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>breed</key>
+		<string>Russian Blue</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Russian_Blue</string>
+	</dict>
+	<dict>
+		<key>breed</key>
+		<string>British Shorthair</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/British_Shorthair</string>
+	</dict>
+	<dict>
+		<key>breed</key>
+		<string>Siamese Cat</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Siamese_cat</string>
+	</dict>
+	<dict>
+		<key>breed</key>
+		<string>Ragdoll</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Ragdoll</string>
+	</dict>
+	<dict>
+		<key>breed</key>
+		<string>Maine Coon</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Maine_Coon</string>
+	</dict>
+	<dict>
+		<key>breed</key>
+		<string>Abyssinian Cat</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Abyssinian_cat</string>
+	</dict>
+	<dict>
+		<key>breed</key>
+		<string>Norwegian Forest Cat</string>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Norwegian_Forest_cat</string>
+	</dict>
+</array>
+</plist>
